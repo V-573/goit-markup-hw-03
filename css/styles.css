@@ -1,0 +1,219 @@
+.logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size:26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+/*creo una clase sobre mi etiqueta UL que va a ser una lista de enlaces y aca le quito el subrayado */
+.enlaces1 a{
+    text-decoration: none;  
+    color: black;
+
+}
+
+
+.enlaces1 a:hover{
+    color: #2196f3;
+}
+
+.enlaces1 {
+list-style-type: none; /*Quito las viñetas de cada iten de lista*/
+}
+
+.enlaces2{
+    text-decoration: none;     
+    list-style-type: none;
+    color:#757575; 
+}
+
+.enlaces2:hover{
+    color: #2196f3;
+}
+
+.section1 {
+    background-color: #2F303A;
+    color:white;
+}
+
+section  .tittle1 {
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size:44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  
+
+}
+
+section .button0{
+    font-family: Roboto;
+    font-style:normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:30px;
+    background-color: #2196f3;
+    color:white;
+    padding: 10px 32px;
+    
+}
+
+.section2 h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size:14px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #212121;
+
+}
+.section2 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+
+.tittle2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size:36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+  
+}
+
+.section4 .name{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size:16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+     
+}
+
+.section4 p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575; 
+}
+
+.section4 ul{
+    list-style-type: none;
+}
+
+address{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF; 
+
+}
+
+.footer1{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size:14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+/* pagina 2 */
+
+
+.navigation2 ul {
+    list-style-type: none;
+ }
+.navigation2 a{
+    text-decoration: none;
+    color:black;
+}
+.navigation2 a:hover {
+    color:white;  
+    background-color: #2196f3;  
+} 
+ .button1{
+    background-color: transparent;
+    width:auto;
+    height:auto;
+    border:0;
+    list-style-type: none;
+    font-family: Roboto;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 26px;
+    }
+
+/*aca intento hacer hover a las 9 imagenes pero genera error y las imagenes saltan de forma descontrolada 
+cuando paso el mause por las fotos desplazandamome para abajo. En la ultima foto, esta se me monta encima del pie de pagina*/
+
+.section10 ul{
+    list-style-type: none;
+}
+
+.section10 a{
+    text-decoration: none; 
+}
+
+/* .image1:hover {
+box-sizing: border-box;
+position:absolute;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+padding: 20px;
+} */
+
+.tittle10{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size:18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121; 
+
+}
+
+.tittle11{
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575; 
+
+}
