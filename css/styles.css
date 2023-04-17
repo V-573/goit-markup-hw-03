@@ -1,3 +1,13 @@
+body{
+    background-color: #FFFFFF;
+}
+
+ul{
+    padding-inline-start:0px
+}
+li {
+    padding-inline-start: 0px
+}
 .logo{
     font-family: Raleway;
     font-style: normal;
@@ -6,11 +16,39 @@
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196f3;
+    margin-right:50px;
+    margin-left:215px;
+    margin-bottom:25px;
+    margin-top:24px;
 }
+
+.section_header{
+display:flex;
+justify-content: space-between;
+width: 1600px;
+
+}
+.section_header_div1{
+display: flex;
+align-items:center;
+
+
+
+}
+.navigation ul{
+    display:flex;
+    margin-top: 32px;
+    margin-bottom:32px;
+   
+}
+
+
 /*creo una clase sobre mi etiqueta UL que va a ser una lista de enlaces y aca le quito el subrayado */
 .enlaces1 a{
+    
     text-decoration: none;  
     color: black;
+
 
 }
 
@@ -21,12 +59,17 @@
 
 .enlaces1 {
 list-style-type: none; /*Quito las viñetas de cada iten de lista*/
+
+}
+.enlaces1 li{
+    margin-right: 50px;
 }
 
 .enlaces2{
     text-decoration: none;     
     list-style-type: none;
     color:#757575; 
+    margin-right:50px;
 }
 
 .enlaces2:hover{
@@ -36,6 +79,12 @@ list-style-type: none; /*Quito las viñetas de cada iten de lista*/
 .section1 {
     background-color: #2F303A;
     color:white;
+    text-align: center;
+    padding-top:200px;
+    padding-bottom:200px;
+    height: 600px;
+    width:1600px;
+       
 }
 
 section  .tittle1 {
@@ -49,6 +98,10 @@ section  .tittle1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #FFFFFF;
+  /* width:696px;
+  height:120px;
+  top:280px;
+  left:448px; */
   
 
 }
@@ -64,6 +117,10 @@ section .button0{
     padding: 10px 32px;
     
 }
+.section2{
+    /* padding-top: 95px; */
+    margin-top:95px
+}
 
 .section2 h4{
     font-family: Roboto;
@@ -74,6 +131,7 @@ section .button0{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #212121;
+
 
 }
 .section2 p{
@@ -87,6 +145,75 @@ section .button0{
 
 }
 
+.section2 ul{
+    width:1170px;
+    height:122px;
+    margin-top:0px;
+    margin-bottom:0px;
+    list-style-type:none;
+    display:flex;
+margin-left:215px;
+
+}
+.section2_parrafo h4{
+    margin:0px
+
+}
+.section2 li {
+    margin-right:30px;
+    font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #757575;
+        
+            width: 270px;
+            height: 101px;
+            left: 215px;
+            top: 775px;
+}
+
+.section2_parrafo{
+height:101px;
+width:270px;
+
+
+}
+
+.section3{
+
+height:425px;
+width:1174px;
+text-align: center;
+/* padding-top: 94px; */
+margin-top:94px;
+margin-left:215px;
+margin-right:215px;
+margin-bottom: 94px;
+
+}
+.section3 h2{
+
+    margin:0px;
+}
+
+.section3_div{
+  display: flex; 
+  margin-top:55.05px; 
+  margin-bottom:94px;
+  width:1174px;
+  height:373px;
+}
+
+
+.imagin_page1{
+    margin-right:30px;
+}
+
+
+
 .tittle2{
     font-family: Roboto;
     font-style: normal;
@@ -95,19 +222,9 @@ section .button0{
     line-height: 42px;
     letter-spacing: 0.03em;
     color: #212121;
+    text-align: center;
+    
   
-}
-
-.section4 .name{
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size:16px;
-    line-height: 19px;
-    letter-spacing: 0.03em;
-    color: #212121;
-     
 }
 
 .section4 p {
@@ -119,10 +236,82 @@ section .button0{
     letter-spacing: 0.03em;
     color: #757575; 
 }
-
-.section4 ul{
-    list-style-type: none;
+.setion4_titulo{
+    text-align: center;
 }
+
+.section4{
+margin-top: 94px;;
+}
+
+.section4_div_general{
+    width:1600px;
+    height:648px;
+    padding-top:94px;
+/* padding-top: 188px;
+padding-bottom:94px; */
+margin-top:94px;
+text-align: center;
+  
+}
+.section4_div_general h2{
+    margin-top:0px;
+    margin-bottom: 50px;
+}
+/* .section4{
+   
+} */
+.section4_ul{
+    list-style-type: none;
+      display: flex;
+      margin-left: 215px;
+  }
+
+  .section4_name_team{
+    
+  }
+  .section4_name_team .name_worker{
+margin-top:30px;
+margin-bottom:0px;
+margin-left: 0px;
+margin-right:0px;
+font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  .profesion{
+margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .section4_image {
+    max-width: 270px;
+    height: 368px;
+    margin-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+  }
+
+ 
+.section4_image .section4_fig{
+    max-width: 270px;
+}
+
+/* .section4_image{
+    
+    margin-right: 30px;
+    background: #FFFFFF;
+        
+    
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+
+} */
 
 address{
     font-family: Roboto;
@@ -149,19 +338,26 @@ address{
 
 
 /* pagina 2 */
-
+.navigation2{
+    padding-top: 101px;
+}
 
 .navigation2 ul {
     list-style-type: none;
- }
+    display:flex;
+    justify-content:center;
+    width:1600px;
+     }
+
 .navigation2 a{
     text-decoration: none;
-    color:black;
+    color:#212121;
 }
-.navigation2 a:hover {
+.button1 a:hover {
     color:white;  
-    background-color: #2196f3;  
-} 
+   } 
+
+
  .button1{
     background-color: transparent;
     width:auto;
@@ -172,27 +368,60 @@ address{
     font-weight: 500px;
     font-size: 16px;
     line-height: 26px;
+    margin-right:8px;
     }
+
+    .button1:hover{
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+background: #2196F3;
+color:white;
+}
+
 
 /*aca intento hacer hover a las 9 imagenes pero genera error y las imagenes saltan de forma descontrolada 
 cuando paso el mause por las fotos desplazandamome para abajo. En la ultima foto, esta se me monta encima del pie de pagina*/
 
 .section10 ul{
     list-style-type: none;
+  
 }
-
+.pru{
+    max-width: 1170px;
+    max-height: 1366px;
+    margin-left:230px;
+}
 .section10 a{
     text-decoration: none; 
 }
+.section10_li{
+    width:370px;
+}
 
-/* .image1:hover {
+.section10_space_image{
+    margin-right:30px;
+}
+.imagenes {
+display:flex;
+flex-wrap:wrap;
+height:1366px;
+
+width: 1170px;
+
+
+
+}
+
+
+.image1:hover {
 box-sizing: border-box;
 position:absolute;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-padding: 20px;
-} */
+width:370px;
+}
+
 
 .tittle10{
 
@@ -216,4 +445,34 @@ padding: 20px;
     letter-spacing: 0.03em;
     color: #757575; 
 
+}
+
+.footer{
+
+    background-color:#2F303A;
+    width:1600px;
+    margin-top: 30px;
+    
+}
+
+
+
+
+address{
+    margin-left:215px;
+    padding-top:9px;
+    padding-bottom: 60px;
+}
+
+.logo2 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+    margin-right: 50px;
+    margin-left: 215px;
+    padding-top: 60px;
 }
