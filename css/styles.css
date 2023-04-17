@@ -340,6 +340,7 @@ address{
     list-style-type: none;
     display:flex;
     justify-content:center;
+
     width:1600px;
      }
 
@@ -347,6 +348,14 @@ address{
     text-decoration: none;
     color:#212121;
 }
+
+.text-button{
+display: block;
+padding: 6px 24px;
+margin-right:8px;
+
+}
+
 .button1 a:hover {
     color:white;  
    } 
@@ -363,6 +372,7 @@ address{
     font-size: 16px;
     line-height: 26px;
     margin-right:8px;
+    padding: 0px;
     }
 
     .button1:hover{
