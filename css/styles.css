@@ -8,6 +8,13 @@ ul{
 li {
     padding-inline-start: 0px
 }
+figure{
+    margin:0px;
+}
+/* me estaba produciendo error en las 9 imagenes de portafolio y note que el navegador acomoda esta 
+margen automaticamente en 40px y por eso aca la coloco en 0 */
+
+
 .logo{
     font-family: Raleway;
     font-style: normal;
@@ -326,7 +333,9 @@ address{
 
 /* pagina 2 */
 
-
+.navigation2  {
+    margin-top: 95px;
+}
 .navigation2 ul {
     list-style-type: none;
     display:flex;
@@ -363,6 +372,10 @@ background: #2196F3;
 color:white;
 }
 
+
+.section10 {
+    margin-top:50px;
+}
 .section10 ul{
     list-style-type: none;
   
@@ -379,12 +392,15 @@ color:white;
     width:370px;
 }
 
-.section10_space_image{
+/* .section10_space_image{
     margin-right:30px;
-}
+} */
+
 .imagenes {
 display:flex;
 flex-wrap:wrap;
+gap:30px;
+
 height:1366px;
 width: 1170px;
 
