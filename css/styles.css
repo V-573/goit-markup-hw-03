@@ -31,7 +31,8 @@ width: 1600px;
 .section_header_div1{
 display: flex;
 align-items:center;
-
+border-bottom: 1px solid #ECECEC;
+width: 1600px;
 
 
 }
@@ -267,10 +268,7 @@ text-align: center;
       margin-left: 215px;
   }
 
-  .section4_name_team{
-    
-  }
-  .section4_name_team .name_worker{
+.section4_name_team .name_worker{
 margin-top:30px;
 margin-bottom:0px;
 margin-left: 0px;
@@ -302,17 +300,6 @@ margin-top: 10px;
     max-width: 270px;
 }
 
-/* .section4_image{
-    
-    margin-right: 30px;
-    background: #FFFFFF;
-        
-    
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-
-} */
-
 address{
     font-family: Roboto;
     font-style: normal;
@@ -338,9 +325,7 @@ address{
 
 
 /* pagina 2 */
-.navigation2{
-    padding-top: 101px;
-}
+
 
 .navigation2 ul {
     list-style-type: none;
@@ -378,10 +363,6 @@ background: #2196F3;
 color:white;
 }
 
-
-/*aca intento hacer hover a las 9 imagenes pero genera error y las imagenes saltan de forma descontrolada 
-cuando paso el mause por las fotos desplazandamome para abajo. En la ultima foto, esta se me monta encima del pie de pagina*/
-
 .section10 ul{
     list-style-type: none;
   
@@ -405,10 +386,7 @@ cuando paso el mause por las fotos desplazandamome para abajo. En la ultima foto
 display:flex;
 flex-wrap:wrap;
 height:1366px;
-
 width: 1170px;
-
-
 
 }
 
@@ -454,9 +432,6 @@ width:370px;
     margin-top: 30px;
     
 }
-
-
-
 
 address{
     margin-left:215px;
