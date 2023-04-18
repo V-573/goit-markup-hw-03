@@ -15,8 +15,9 @@ figure{
 margen automaticamente en 40px y por eso aca la coloco en 0 */
 
 .container{
-    width:1600px;
-
+    align-items: center;
+    width:1200px;
+margin-left: 215px;
 
 }
 .logo{
@@ -27,8 +28,8 @@ margen automaticamente en 40px y por eso aca la coloco en 0 */
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196f3;
-    margin-right:50px;
-    margin-left:215px;
+    margin-right:93px;
+    /* margin-left:215px; */
     margin-bottom:25px;
     margin-top:24px;
 }
@@ -36,15 +37,15 @@ margen automaticamente en 40px y por eso aca la coloco en 0 */
 .section_header{
 display:flex;
 justify-content: space-between;
-width: 1600px;
-gap:314px;
+/* width: 1600px; */
+gap:264px;
 
 }
 .section_header_div1{
 display: flex;
 align-items:center;
 border-bottom: 1px solid #ECECEC;
-width: 1600px;
+/* width: 1600px; */
 
 
 
@@ -91,6 +92,19 @@ list-style-type: none; /*Quito las viñetas de cada iten de lista*/
     color: #2196f3;
 }
 
+.enlaces3 {
+    text-decoration: none;
+    list-style-type: none;
+    color: #757575;
+    
+}
+
+.enlaces3:hover {
+    color: #2196f3;
+}
+
+
+
 .section1 {
     background-color: #2F303A;
     color:white;
@@ -135,6 +149,7 @@ section .button0{
 .section2{
     /* padding-top: 94px; */
     margin-top:94px;
+    
 }
 
 .section2 h4{
@@ -167,7 +182,7 @@ section .button0{
     margin-bottom:0px;
     list-style-type:none;
     display:flex;
-margin-left:215px;
+/* margin-left:215px; */
 
 }
 .section2_parrafo h4{
@@ -204,8 +219,8 @@ width:1174px;
 text-align: center;
 /* padding-top: 94px; */
 margin-top:94px;
-margin-left:215px;
-margin-right:215px;
+/* margin-left:215px;
+margin-right:215px; */
 
 
 }
@@ -262,7 +277,7 @@ margin-top: 94px;;
 }
 
 .section4_div_general{
-    width:1600px;
+    /* width:1600px; */
     height:648px;
     padding-top:94px;
 /* padding-top: 188px;
@@ -281,7 +296,7 @@ text-align: center;
 .section4_ul{
     list-style-type: none;
       display: flex;
-      margin-left: 215px;
+      /* margin-left: 215px; */
   }
 
 .section4_name_team .name_worker{
@@ -350,7 +365,7 @@ address{
     display:flex;
     justify-content:center;
 
-    width:1600px;
+    /* width:1600px; */
      }
 
 .navigation2 a{
@@ -402,7 +417,7 @@ color:white;
 .pru{
     max-width: 1170px;
     max-height: 1366px;
-    margin-left:230px;
+    /* margin-left:230px; */
 }
 .section10 a{
     text-decoration: none; 
@@ -469,7 +484,7 @@ width:370px;
 }
 
 address{
-    margin-left:215px;
+    /* margin-left:215px; */
     padding-top:9px;
     padding-bottom: 60px;
 }
@@ -483,6 +498,6 @@ address{
     letter-spacing: 0.03em;
     color: #2196f3;
     margin-right: 50px;
-    margin-left: 215px;
+    /* margin-left: 215px; */
     padding-top: 60px;
 }
