@@ -201,7 +201,7 @@ section .button0{
         
             width: 270px;
             height: 101px;
-            left: 215px;
+            /* left: 215px; */
             top: 775px;
 }
 
