@@ -14,7 +14,11 @@ figure{
 /* me estaba produciendo error en las 9 imagenes de portafolio y note que el navegador acomoda esta 
 margen automaticamente en 40px y por eso aca la coloco en 0 */
 
+.container{
+    width:1600px;
 
+
+}
 .logo{
     font-family: Raleway;
     font-style: normal;
@@ -33,6 +37,7 @@ margen automaticamente en 40px y por eso aca la coloco en 0 */
 display:flex;
 justify-content: space-between;
 width: 1600px;
+gap:314px;
 
 }
 .section_header_div1{
@@ -42,7 +47,9 @@ border-bottom: 1px solid #ECECEC;
 width: 1600px;
 
 
+
 }
+
 .navigation ul{
     display:flex;
     margin-top: 32px;
@@ -126,8 +133,8 @@ section .button0{
     
 }
 .section2{
-    /* padding-top: 95px; */
-    margin-top:95px
+    /* padding-top: 94px; */
+    margin-top:94px;
 }
 
 .section2 h4{
@@ -192,14 +199,14 @@ width:270px;
 
 .section3{
 
-height:425px;
+height:465px;
 width:1174px;
 text-align: center;
 /* padding-top: 94px; */
 margin-top:94px;
 margin-left:215px;
 margin-right:215px;
-margin-bottom: 94px;
+
 
 }
 .section3 h2{
@@ -209,7 +216,7 @@ margin-bottom: 94px;
 
 .section3_div{
   display: flex; 
-  margin-top:55.05px; 
+  margin-top:50px; 
   margin-bottom:94px;
   width:1174px;
   height:373px;
@@ -223,6 +230,7 @@ margin-bottom: 94px;
 
 
 .tittle2{
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
@@ -231,6 +239,7 @@ margin-bottom: 94px;
     letter-spacing: 0.03em;
     color: #212121;
     text-align: center;
+   
     
   
 }
