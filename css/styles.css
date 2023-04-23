@@ -37,18 +37,19 @@ figure {
 .section_header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .section_header_div1 {
     display: flex;
 
-    border-bottom: 1px solid #ECECEC;
+   
 }
 
 .section_header_div2 {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ECECEC;
+    
 }
 
 .header_nav ul {
