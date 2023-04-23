@@ -33,11 +33,15 @@ figure {
     margin-top: 24px;
     margin-right: 93px;
 }
-
+.linea{
+    width: 1600px;
+    border: 1px solid #ECECEC;
+    margin:0px;
+}
 .section_header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #ECECEC;
+   
 }
 
 .section_header_div1 {
