@@ -29,7 +29,6 @@ figure {
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196f3;
-    /* margin-left: 200px; */
     margin-bottom: 25px;
     margin-top: 24px;
     margin-right: 93px;
@@ -348,7 +347,7 @@ h4 {
 .text-button {
     display: block;
     padding: 6px 24px;
-    margin-right: 8px;
+  
 
 }
 
@@ -390,11 +389,6 @@ h4 {
 
 }
 
-/* .pru{
-    max-width: 1170px;
-    max-height: 1366px;
-    lo acabo de quitaqr para el nuevo programa
-} */
 .section10 a {
     text-decoration: none;
 }
@@ -409,11 +403,7 @@ h4 {
     flex-wrap: wrap;
     gap: 30px;
 
-    /* height:1366px;
-width: 1170px;
-lo acabo de quitar para el nuevo programa */
-
-}
+    }
 
 .footer2 {
 
